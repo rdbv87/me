@@ -20,7 +20,7 @@ import {
 export const PERSONAL_INFO = {
   name: "Roberto D. Bulnes",
   title: "Ingeniero Mecatrónico & Líder de Infraestructura TI / Cloud",
-  bio: "Ingeniero Mecatrónico con más de 10 años de experiencia transformando infraestructuras críticas, orquestando servicios en la nube (AWS, Azure, GCP), Data Centers de misión especial, ciberseguridad y liderando gobernanza tecnológica. Además, Artista 3D y desarrollador con pasión por la convergencia entre computación, automatización e innovación visual.",
+  bio: "Ingeniero Mecatrónico con más de 10 años de experiencia transformando infraestructuras críticas, orquestando servicios en la nube (AWS, Azure, GCP), desarrollo de herramientas de automatización, ciberseguridad y liderando gobernanza tecnológica. Además, Artista 3D y desarrollador con pasión por la convergencia entre computación, automatización e innovación visual.",
   email: "rdbv87@gmail.com",
   phoneWhatsapp: "+504 9935-1407",
   phoneDirect: "+504 8928-2485",
@@ -47,19 +47,33 @@ export const METRICS = [
 ];
 
 export const MARQUEE_TECH = [
-  "AWS", "Microsoft Azure", "Google Cloud Platform", "Terraform", "FortiOS & UTM",
-  "ReactJS", "Node.js", "Docker / Jenkins", "Python", "GDScript", "Godot 4.4+",
+  "AWS", "Microsoft Azure", "Google Cloud Platform", "Microsoft Graph API", "Entra ID (MSAL)",
+  "Vue.js", "Astro", "ReactJS", "Node.js", "Tailwind CSS", "Vite", "Terraform",
+  "FortiOS & UTM", "Docker / Jenkins", "Python", "Godot 4.4+",
   "Autodesk Maya", "Foundry Nuke", "Redshift", "Arnold", "ShotGrid",
-  "PostgreSQL", "MSSQL Server", "Oracle DB", "Linux (Arch, Debian)", "Asterisk IP-PBX"
+  "PostgreSQL", "MSSQL Server", "Oracle DB", "Linux (Arch, Debian)"
 ];
 
 export const EXPERIENCES = [
   {
-    period: "2025 – Presente",
+    period: "2026 – Presente",
+    role: "Administrador y Gestor de Datos",
+    company: "CNBS (Comisión Nacional de Bancos y Seguros)",
+    category: "Automatización & Ecosistema M365",
+    badge: "Actual",
+    description: "Desarrollo e implementación de herramientas de automatización de procesos institucionales y gestión de datos, integradas al ecosistema Microsoft 365.",
+    highlights: [
+      "Desarrollo de soluciones y herramientas de automatización con Node.js, Vue.js, Astro, Tailwind CSS y Vite.",
+      "Integración profunda en el ecosistema M365 mediante Microsoft Graph API y autenticación moderna con Microsoft Entra ID (MSAL).",
+      "Administración, análisis y gobierno de datos para optimización de procesos operativos y regulatorios."
+    ],
+    tech: ["Node.js", "Vue.js", "Astro", "Tailwind CSS", "Vite", "Microsoft Graph API", "Entra ID (MSAL)", "M365", "Gestión de Datos"]
+  },
+  {
+    period: "2025 – 2026",
     role: "Coordinador de Infotecnología UFT-SINAP",
     company: "Instituto de la Propiedad",
     category: "Gobierno & Transformación Digital",
-    badge: "Actual",
     description: "Planificación, gestión y supervisión de proyectos tecnológicos e institucionales orientados a la modernización y transformación digital.",
     highlights: [
       "Coordinación de procesos de auditoría técnica y bases de datos registrales.",
@@ -138,19 +152,24 @@ export const EXPERIENCES = [
 
 export const SKILL_CATEGORIES = [
   {
-    category: "Cloud, Servidores & DevOps",
+    category: "Cloud, Microsoft 365 & Identidad",
     icon: Cloud,
-    skills: ["Microsoft Azure (ASM/ARM)", "AWS (Elastic Beanstalk, EC2, S3)", "Google Cloud Platform", "Terraform (IaC)", "Jenkins CI/CD", "Git / GitLab / GitHub", "Jira", "SVN", "Linux (Arch, Debian)", "Windows Server"]
+    skills: ["Microsoft Entra ID (MSAL)", "Microsoft Graph API", "Ecosistema Microsoft 365", "Microsoft Azure (ASM/ARM)", "AWS (Elastic Beanstalk, EC2, S3)", "Google Cloud Platform", "Terraform (IaC)", "Jenkins CI/CD", "Git / GitHub / GitLab", "Linux / Windows Server"]
+  },
+  {
+    category: "Desarrollo Web, Frontend & Automatización",
+    icon: Code2,
+    skills: ["Node.js", "Vue.js", "Astro", "ReactJS", "Tailwind CSS", "Vite", "TypeScript / JavaScript", "HTML5 & CSS3 / SASS", "REST APIs", "GDScript (Godot 4.4+)"]
+  },
+  {
+    category: "Bases de Datos & Gestión de Datos",
+    icon: Server,
+    skills: ["Gestión & Gobierno de Datos", "SQL Server (MSSQL)", "Oracle DB", "PostgreSQL", "MySQL", "Auditoría de Bases de Datos", "Modelado de Datos"]
   },
   {
     category: "Redes, Seguridad & Telefonía",
     icon: ShieldCheck,
     skills: ["FortiOS & Firewalls FortiGate", "Asterisk IP-PBX", "Grandstream VoIP", "CCTV & Seguridad Física", "Auditoría de Sistemas", "Contraterrorismo Cibernético", "Cableado Estructurado"]
-  },
-  {
-    category: "Desarrollo de Software & BD",
-    icon: Code2,
-    skills: ["ReactJS", "JavaScript / TypeScript", "HTML5 & CSS3 / SASS", "Node.js", "PHP", "GDScript (Godot 4.4+)", "SQL Server", "Oracle DB", "MySQL", "PostgreSQL", "Web3 & DApps"]
   },
   {
     category: "Producción 3D & Pipeline Gráfico",
