@@ -290,8 +290,25 @@ export function App() {
       <header className="sticky top-0 z-40 w-full border-b border-emerald-900/30 bg-[#040c08]/85 backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-6 h-18 flex items-center justify-between">
           <a href="#hero" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-xl bg-linear-to-br from-emerald-500 to-teal-700 flex items-center justify-center text-white font-mono font-bold text-lg shadow-[0_0_20px_rgba(16,185,129,0.35)] group-hover:scale-105 transition-transform">
-              RB
+            <div className="w-10 h-10 rounded-xl bg-[#04120b] border border-emerald-500/40 flex items-center justify-center shadow-[0_0_20px_rgba(16,185,129,0.35)] group-hover:scale-105 group-hover:border-emerald-400 transition-all p-1">
+              <svg viewBox="0 0 64 64" className="w-full h-full" fill="none">
+                <rect x="14" y="14" width="36" height="36" rx="5" fill="#071b11" stroke="#10b981" strokeWidth="2.5" />
+                <rect x="20" y="20" width="24" height="24" rx="2" fill="#0b291a" stroke="#34d399" strokeWidth="1" strokeOpacity="0.6" />
+                <line x1="22" y1="6" x2="22" y2="14" stroke="#34d399" strokeWidth="2.5" strokeLinecap="round" />
+                <line x1="32" y1="6" x2="32" y2="14" stroke="#34d399" strokeWidth="2.5" strokeLinecap="round" />
+                <line x1="42" y1="6" x2="42" y2="14" stroke="#34d399" strokeWidth="2.5" strokeLinecap="round" />
+                <line x1="22" y1="50" x2="22" y2="58" stroke="#34d399" strokeWidth="2.5" strokeLinecap="round" />
+                <line x1="32" y1="50" x2="32" y2="58" stroke="#34d399" strokeWidth="2.5" strokeLinecap="round" />
+                <line x1="42" y1="50" x2="42" y2="58" stroke="#34d399" strokeWidth="2.5" strokeLinecap="round" />
+                <line x1="6" y1="22" x2="14" y2="22" stroke="#06b6d4" strokeWidth="2.5" strokeLinecap="round" />
+                <line x1="6" y1="32" x2="14" y2="32" stroke="#06b6d4" strokeWidth="2.5" strokeLinecap="round" />
+                <line x1="6" y1="42" x2="14" y2="42" stroke="#06b6d4" strokeWidth="2.5" strokeLinecap="round" />
+                <line x1="50" y1="22" x2="58" y2="22" stroke="#06b6d4" strokeWidth="2.5" strokeLinecap="round" />
+                <line x1="50" y1="32" x2="58" y2="32" stroke="#06b6d4" strokeWidth="2.5" strokeLinecap="round" />
+                <line x1="50" y1="42" x2="58" y2="42" stroke="#06b6d4" strokeWidth="2.5" strokeLinecap="round" />
+                <circle cx="23" cy="23" r="1.5" fill="#34d399" />
+                <text x="32" y="37" fontFamily="'Space Grotesk', sans-serif" fontSize="13" fontWeight="900" fill="#f0fdf4" textAnchor="middle" letterSpacing="0.5">RB</text>
+              </svg>
             </div>
             <div>
               <span className="font-display font-bold text-white text-base tracking-tight block">
