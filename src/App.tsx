@@ -280,7 +280,7 @@ export function App() {
     <div className="relative min-h-screen bg-[#030806] text-[#c7d5ce] overflow-x-hidden math-grid">
       
       {/* Top Emerald Gradient Line */}
-      <div className="fixed top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-emerald-500 via-cyan-400 to-emerald-400 z-50 shadow-[0_0_12px_rgba(16,185,129,0.8)]" />
+      <div className="fixed top-0 left-0 right-0 h-0.5 bg-linear-to-r from-emerald-500 via-cyan-400 to-emerald-400 z-50 shadow-[0_0_12px_rgba(16,185,129,0.8)]" />
 
       {/* Glow Backdrops */}
       <div className="fixed -top-40 left-1/4 w-96 h-96 bg-emerald-600/10 rounded-full blur-[140px] pointer-events-none" />
@@ -290,7 +290,7 @@ export function App() {
       <header className="sticky top-0 z-40 w-full border-b border-emerald-900/30 bg-[#040c08]/85 backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-6 h-18 flex items-center justify-between">
           <a href="#hero" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-700 flex items-center justify-center text-white font-mono font-bold text-lg shadow-[0_0_20px_rgba(16,185,129,0.35)] group-hover:scale-105 transition-transform">
+            <div className="w-10 h-10 rounded-xl bg-linear-to-br from-emerald-500 to-teal-700 flex items-center justify-center text-white font-mono font-bold text-lg shadow-[0_0_20px_rgba(16,185,129,0.35)] group-hover:scale-105 transition-transform">
               RB
             </div>
             <div>
@@ -356,7 +356,7 @@ export function App() {
                 <div
                   className={`transition-all duration-300 rounded-full ${
                     isActive
-                      ? 'w-2 h-7 bg-gradient-to-b from-emerald-400 to-teal-300 shadow-[0_0_12px_rgba(16,185,129,0.7)]'
+                      ? 'w-2 h-7 bg-linear-to-b from-emerald-400 to-teal-300 shadow-[0_0_12px_rgba(16,185,129,0.7)]'
                       : 'w-1.5 h-1.5 bg-slate-600 group-hover:bg-emerald-400 group-hover:h-3'
                   }`}
                 />
@@ -379,7 +379,7 @@ export function App() {
           {/* Main Title */}
           <h1 className="text-4xl sm:text-6xl md:text-7xl font-display font-bold text-white tracking-tight leading-[1.08] max-w-5xl mx-auto">
             Arquitectura Tecnológica, <br className="hidden sm:block" />
-            <span className="bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-emerald-400 via-teal-300 to-cyan-400 bg-clip-text text-transparent">
               Infraestructura Crítica
             </span> & Creación Digital.
           </h1>
@@ -551,7 +551,7 @@ export function App() {
             {EXPERIENCES.map((exp, idx) => (
               <div key={idx} className="relative group">
                 {/* Timeline node */}
-                <div className="absolute -left-[31px] sm:-left-[47px] top-1.5 w-4 h-4 rounded-full bg-[#030806] border-2 border-emerald-400 group-hover:scale-125 group-hover:bg-emerald-400 group-hover:shadow-[0_0_12px_#10b981] transition-all" />
+                <div className="absolute -left-7.75 sm:-left-11.75 top-1.5 w-4 h-4 rounded-full bg-[#030806] border-2 border-emerald-400 group-hover:scale-125 group-hover:bg-emerald-400 group-hover:shadow-[0_0_12px_#10b981] transition-all" />
 
                 {/* Experience Box */}
                 <div className="p-6 sm:p-8 rounded-2xl glass-panel glass-panel-hover">
@@ -662,7 +662,7 @@ export function App() {
 
                 {/* Video Card Preview */}
                 <div className="relative rounded-2xl overflow-hidden bg-slate-900 border border-emerald-900/50 aspect-video flex items-center justify-center group/video shadow-2xl">
-                  <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/40 opacity-80" />
+                  <div className="absolute inset-0 bg-linear-to-t from-black via-transparent to-black/40 opacity-80" />
                   
                   <div className="absolute inset-0 math-grid-dense opacity-40" />
 
@@ -949,7 +949,7 @@ export function App() {
               href={`https://wa.me/50499351407?text=${encodeURIComponent('Hola Roberto, te contacto a través de tu sitio web personal.')}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 text-[#030907] font-bold text-base hover:scale-105 transition-transform shadow-[0_0_30px_rgba(16,185,129,0.4)]"
+              className="inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-linear-to-r from-emerald-500 to-teal-500 text-[#030907] font-bold text-base hover:scale-105 transition-transform shadow-[0_0_30px_rgba(16,185,129,0.4)]"
             >
               <MessageSquare className="w-5 h-5" />
               <span>Enviar Mensaje a WhatsApp (+504 9935-1407)</span>
