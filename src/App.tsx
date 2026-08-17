@@ -370,10 +370,21 @@ export function App() {
       <section id="hero" className="relative pt-24 pb-20 md:pt-32 md:pb-28 border-b border-emerald-900/20 overflow-hidden">
         <div className="max-w-6xl mx-auto px-6 text-center">
           
-          {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-950/60 border border-emerald-500/30 text-emerald-300 font-mono text-xs mb-8 shadow-inner">
-            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_8px_#34d399]" />
-            <span>DISPONIBLE PARA PROYECTOS & CONSULTORÍA TI / 3D</span>
+          {/* Profile Photo & Badge */}
+          <div className="flex flex-col items-center mb-8">
+            <div className="relative mb-6 group">
+              <div className="absolute -inset-1.5 bg-linear-to-r from-emerald-500 via-teal-400 to-cyan-500 rounded-full blur-md opacity-75 group-hover:opacity-100 transition duration-500 animate-pulse" />
+              <img
+                src="./foto-perfil.jpg"
+                alt="Roberto D. Bulnes"
+                className="relative w-32 h-32 sm:w-36 sm:h-36 rounded-full object-cover border-2 border-emerald-400/80 shadow-2xl"
+              />
+            </div>
+
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-950/60 border border-emerald-500/30 text-emerald-300 font-mono text-xs shadow-inner">
+              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_8px_#34d399]" />
+              <span>DISPONIBLE PARA PROYECTOS & CONSULTORÍA TI / 3D</span>
+            </div>
           </div>
 
           {/* Main Title */}
